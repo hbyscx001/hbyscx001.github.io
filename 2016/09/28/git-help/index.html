@@ -51,7 +51,7 @@
     </div>
     <div class="meta center">
       
-<time datetime="2016-09-28T11:57:26.000Z">
+<time datetime="2016-09-28T11:58:52.000Z">
   <i class="fa fa-calendar"></i>&nbsp;
   2016-09-28
 </time>
@@ -81,9 +81,9 @@
 <h3 id="资源文件夹"><a href="#资源文件夹" class="headerlink" title="资源文件夹"></a>资源文件夹</h3><p>资源文件就比如一些图片之类的文件，默认的资源文件夹是source下面除了文章以外的文件<br>所以对于本地图片或者是一些视频之类的文件可以放在本地一个统一的文件夹下面来进行访问</p>
 <ul>
 <li>集中管理资源文件</li>
-<li>文章资源文件夹<br><em>当使用了文章资源文件夹之后，对资源的访问路径可能会有些麻烦，因此使用相对路径引用标签</em><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_path slug %&#125;</span><br><span class="line">&#123;% asset_img slug [title] %&#125;</span><br><span class="line">&#123;% asset_link slug [title] %&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<li>文章资源文件夹</li>
 </ul>
+<p><em>当使用了文章资源文件夹之后，对资源的访问路径可能会有些麻烦，因此使用相对路径引用标签</em><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_path slug %&#125;</span><br><span class="line">&#123;% asset_img slug [title] %&#125;</span><br><span class="line">&#123;% asset_link slug [title] %&#125;</span><br></pre></td></tr></table></figure></p>
 <p><strong>使用markdown语法的相对路径引用并不强于上面的引用标签</strong></p>
 <h3 id="git相关"><a href="#git相关" class="headerlink" title="git相关"></a>git相关</h3><p>在主配置文件下面设置git链接的仓库文件名称<br>如果git没有相关配置，则会需要输入用户名和密码<br>否则直接使用git的config配置，来连接远程仓库，包括rsa免密认证</p>
 <h3 id="主题相关"><a href="#主题相关" class="headerlink" title="主题相关"></a>主题相关</h3><p>主题等在文件夹theme下面，文件夹名称就是主题名<br>将可用的主题名在根文件夹下面的_config.yml中修改即可</p>
@@ -98,9 +98,9 @@
     <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
   </script>
   <div class="busuanzi center">
-    页阅读量:&nbsp;<span id="busuanzi_value_page_pv"></span>&nbsp;・&nbsp;
-    站访问量:&nbsp;<span id="busuanzi_value_site_pv"></span>&nbsp;・&nbsp;
-    站访客数:&nbsp;<span id="busuanzi_value_site_uv"></span>
+    page PV:&nbsp;<span id="busuanzi_value_page_pv"></span>&nbsp;・&nbsp;
+    site PV:&nbsp;<span id="busuanzi_value_site_pv"></span>&nbsp;・&nbsp;
+    site UV:&nbsp;<span id="busuanzi_value_site_uv"></span>
   </div>
 
 
